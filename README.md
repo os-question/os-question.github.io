@@ -34,7 +34,6 @@ This site serves as a long-term notebook, not a blog platform.
 ---
 
 ## Contact
-research@os-question.com
 
 - Email: research@os-question.com
 - GitHub: https://github.com/os-question
