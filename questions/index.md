@@ -14,13 +14,15 @@ Below are the articles currently available:
 {% endcomment %}
 
 <ul>
-{% assign posts_in_questions = site.pages | where_exp: "page", "page.path contains 'questions/' and page.path != 'questions/index.md' and page.nav_exclude != true" %}
-{% for post in posts_in_questions %}
-  <li>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-  </li>
+{% for page in site.pages %}
+  {% if page.path contains 'questions/' and page.path != 'questions/index.md' and page.nav_exclude != true %}
+    <li>
+      <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+    </li>
+  {% endif %}
 {% endfor %}
 </ul>
+
 
 ---
 
