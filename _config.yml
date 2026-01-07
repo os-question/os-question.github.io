@@ -2,3 +2,17 @@ title: OS-Question
 description: Exploring Operating Systems, AI, and the structure beneath computation.
 markdown: kramdown
 theme: minima
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      menu:
+        - title: "Home"
+          url: "/"
+        - title: "Questions"
+          url: "/questions/"
+        - title: "Notes"
+          url: "/notes/"
+        - title: "Explorations"
+          url: "/explorations/"
