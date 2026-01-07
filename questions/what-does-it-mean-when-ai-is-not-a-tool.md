@@ -1,3 +1,9 @@
+---
+title: "What Does It Mean When AI Is Not a Tool"
+published: true
+nav_exclude: true   # 排除主题自动导航
+---
+
 # What Does It Mean When AI Is No Longer a Tool?
 
 - Modern AI no longer feels like a tool that simply executes instructions.
