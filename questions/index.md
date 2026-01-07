@@ -16,14 +16,15 @@ Below are the articles currently available:
 <ul>
 {% for page in site.pages %}
   {% if page.path contains 'questions/' and page.path != 'questions/index.md' %}
-    {% if page.nav_exclude != true %}
-    <li>
-      <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
-    </li>
+    {% if page.title %}
+      <li>
+        <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+      </li>
     {% endif %}
   {% endif %}
 {% endfor %}
 </ul>
+
 
 
 ---
