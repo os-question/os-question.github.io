@@ -1,4 +1,4 @@
-# Research
+# Explorations
 
 This section contains structured and long-term investigations.
 
