@@ -31,6 +31,10 @@
   border-radius: 50%;   // 圆形
   object-fit: cover;   // 防止变形
   display: block;
+
+  // 防止被拉伸或参与行高计算
+  flex-shrink: 0;
+  vertical-align: middle;
 }
 
 .site-title-text {
