@@ -3,6 +3,8 @@
   margin-bottom: 2rem;
 }
 
+
+
 .nav-wrapper {
   display: flex;
   align-items: center;
@@ -16,6 +18,27 @@
   color: #111;
   text-decoration: none;
 }
+
+.site-title-with-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem; // logo 与文字的自然间距
+}
+
+.site-logo {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;   // 圆形
+  object-fit: cover;   // 防止变形
+  display: block;
+}
+
+.site-title-text {
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: 1;
+}
+
 
 .site-nav a {
   margin-left: 1.2rem;
