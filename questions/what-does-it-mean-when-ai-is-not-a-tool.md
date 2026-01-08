@@ -2,6 +2,7 @@
 title: "What Does It Mean When AI Is Not a Tool"
 published: true
 nav_exclude: true   # 排除主题自动导航
+date: 2026-01-06
 ---
 
 # What Does It Mean When AI Is No Longer a Tool?
