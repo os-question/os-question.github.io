@@ -1,32 +1,29 @@
 .site-header {
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #e5e5e5;
   margin-bottom: 2rem;
 }
 
-.nav-container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 1rem 1rem;
+.nav-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+/* 保持 Minima 的字体风格 */
 .site-title {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
-  text-decoration: none;
   color: #111;
+  text-decoration: none;
 }
 
 .site-nav a {
   margin-left: 1.2rem;
-  text-decoration: none;
   font-size: 0.95rem;
   color: #555;
+  text-decoration: none;
 }
 
 .site-nav a:hover {
   color: #000;
-  text-decoration: underline;
 }
