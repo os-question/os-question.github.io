@@ -23,15 +23,16 @@ Below are the available articles, sorted by date (newest first).
 {% assign question_pages = site.pages
   | where_exp: "p", "p.path contains 'questions/'"
   | where_exp: "p", "p.path != 'questions/index.md'"
-  | sort: "date"
-  | reverse %}
+%}
 
 {% for page in question_pages %}
-  {% if page.title and page.nav_exclude != true %}
+  {% if page.title %}
     <li class="question-item">
-      <span class="question-date">
-        {{ page.date | date: "%Y-%m-%d" }}
-      </span>
+      {% if page.date %}
+        <span class="question-date">
+          {{ page.date | date: "%Y-%m-%d" }}
+        </span>
+      {% endif %}
       <a class="question-title" href="{{ page.url | relative_url }}">
         {{ page.title }}
       </a>
@@ -39,6 +40,7 @@ Below are the available articles, sorted by date (newest first).
   {% endif %}
 {% endfor %}
 </ul>
+
 
 
 
