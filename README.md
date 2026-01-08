@@ -28,7 +28,7 @@ This site serves as a long-term notebook, not a blog platform.
 - **[Explorations](./explorations/)**  
   Systematic documents, whitepapers, and research exports. Includes more formalized studies and reference material intended for reuse, citation, or deeper analysis.
 
-- **[About](./about.md)**  
+- **[About](./about/)**  
   Background on the repository, purpose, and author intent.
 
 ---
