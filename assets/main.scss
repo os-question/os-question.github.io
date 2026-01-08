@@ -2,4 +2,62 @@
 ---
 
 @import "minima";
-@import "custom";
+//@import "custom";
+
+/* ===== Custom styles ===== */
+.site-header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 2rem;
+}
+
+
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* 保持 Minima 的字体风格 */
+.site-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #111;
+  text-decoration: none;
+}
+
+.site-title-with-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem; // logo 与文字的自然间距
+}
+
+.site-logo {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;   // 圆形
+  object-fit: cover;   // 防止变形
+  display: block;
+
+  // 防止被拉伸或参与行高计算
+  flex-shrink: 0;
+  vertical-align: middle;
+}
+
+.site-title-text {
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: 1;
+}
+
+
+.site-nav a {
+  margin-left: 1.2rem;
+  font-size: 0.95rem;
+  color: #555;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  color: #000;
+}
