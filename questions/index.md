@@ -6,7 +6,7 @@ layout: default
 # Questions
 
 Welcome to the Questions section of **OS-QUESTION**.  
-Below are the available articles, sorted by date (newest first).
+Below are the available articles.
 
 {% comment %}
 说明：
