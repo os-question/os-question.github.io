@@ -1,5 +1,5 @@
 ---
-title: "when-systems-move-to-the-intent-layer"
+title: "When Systems Move to the Intent Layer"
 published: true
 nav_exclude: true   # 排除主题自动导航
 date: 2026-01-09
